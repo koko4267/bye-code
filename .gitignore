@@ -1,0 +1,20 @@
+# Build outputs
+bin/
+obj/
+*.exe
+*.pdb
+*.dll
+*.user
+*.suo
+
+# Logs
+bye-code.log
+*.log
+
+# Backups
+vscode-backup-*.zip
+
+# IDE (ironically, standard ignore)
+.vscode/
+.idea/
+.vs/
