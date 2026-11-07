@@ -42,5 +42,5 @@ ByeCode.exe --clean --force
 
 Требуется .NET SDK 10+:
 ```cmd
-dotnet publish src/ByeCode/ByeCode.csproj -c Release -r win-x64 --self-contained -p:PublishSingleFile=true -o bin
+dotnet publish src/ByeCode.csproj -c Release -r win-x64 --self-contained -p:PublishSingleFile=true -o bin
 ```
